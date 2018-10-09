@@ -113,7 +113,7 @@ struct action_event {
 };
 
 struct action *find_action(struct service *event_service,
-                                  char *action_name);
+			   const char *action_name);
 
 char *upnp_get_scpd(struct service *srv);
 
